@@ -39,6 +39,16 @@ section {
   50% { border-color: transparent; }
 }
 
+.l-header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: #222;
+  
+ }
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -291,4 +301,5 @@ footer {
   background: #222;
   color: white;
   padding: 10px;
+
 }
